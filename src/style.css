@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap');
+/* custom css */
+
+.carousel-item img{
+  height: 100vh;
+  object-fit: cover !important;
+}
+
+.carousel-caption {
+  border-radius: 1rem;
+  /* top: 43vh; */
+  bottom: 43vh;
+  left: 30%;
+  right: 30%;
+  padding: 20px;
+  color: rgb(248, 249, 250) !important;
+  /* align-items: center !important; */
+  background: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,89 @@
+@import './base.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap');
+
+/* custom css */
+* {
+  font-family: Kanit;
+}
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover !important;
+}
+
+.carousel-caption {
+  border-radius: 1rem;
+  /* top: 43vh; */
+  bottom: 43vh;
+  left: 30%;
+  right: 30%;
+  padding: 20px;
+  color: rgb(248, 249, 250) !important;
+  /* align-items: center !important; */
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.blog-detail img {
+  max-width: 20rem;
+  max-height: 40rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.blog-thumbnail img {
+  width: 25rem;
+  /* height: 15.625rem; */
+  align-items: center;
+  vertical-align: middle;
+  object-fit: cover;
+  aspect-ratio: 16/10;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  padding: 1rem 9%;
+  height: max-content;
+  background: #242424;
+}
+
+.footer-text p {
+  font-size: 1rem;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-text p a {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-text:hover p a {
+  color: #ff0000;
+}
+
+.footer-iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background: var(--main-color);
+  border-radius: 0.5rem;
+  animation: floaticonTop 4s ease-in-out infinite;
+}
+
+.footer-iconTop a:hover {
+  box-shadow: 0 0 0.625rem var(--main-color);
+}
+
+.footer-iconTop a i {
+  font-size: 1.5rem;
+  color: var(--second-bg-color);
+}
