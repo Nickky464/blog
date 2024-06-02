@@ -27,7 +27,6 @@
 .blog-detail img {
   max-width: 20rem;
   max-height: 40rem;
-  border-radius: 15px;
   object-fit: cover;
 }
 

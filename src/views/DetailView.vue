@@ -4,7 +4,6 @@ import NavMenu from '@/components/NavMenuComponent.vue';
 </script>
 <template>
 
-
     <body data-bs-theme="dark">
 
         <NavMenu />
@@ -14,7 +13,7 @@ import NavMenu from '@/components/NavMenuComponent.vue';
                 <p v-html="blog.content"></p>
                 <!-- <p>Location: {{ blog.location }}</p> -->
                 <div class="row cols-sm-8 g-5 py-4 justify-content-center">
-                    <img v-for="pic_path in blog.img" :key="pic_path" :src="pic_path" class=" rounded d-block"
+                    <img v-for="pic_path in blog.img" :key="pic_path" :src="pic_path" class="rounded d-block"
                         alt="Image">
                 </div>
                 <p>Posted by: {{ blog.postedby }}</p>
