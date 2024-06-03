@@ -86,3 +86,28 @@
   font-size: 1.5rem;
   color: var(--second-bg-color);
 }
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #979797 #2f2f2f;
+}
+
+
+*::-webkit-scrollbar {
+  width: 10px;
+  overflow: visible;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2f2f2f;
+  border: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #979797;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}

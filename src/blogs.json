@@ -7,7 +7,7 @@
       "location": "เชียงใหม่",
       "crediturl": "https://www.apple.com",
       "creditname": "apple.com",
-      "blogdate": "1 มิ.ย. 2567",
+      "postdate": "1 มิ.ย. 2567",
       "postedby": "Chatchaya T.",
       "thumbnail_img": "https://www.apple.com/v/apple-events/home/ae/images/overview/hero/hero_startframe__bajz62vgcj42_large.jpg",
       "img": [
@@ -24,7 +24,7 @@
       "location": "เชียงใหม่",
       "crediturl": "https://blog.google/products/pixel/pixel-8a-launch/#Get-your-Pixel-devices",
       "creditname": "google.com",
-      "blogdate": "1 มิ.ย. 2567",
+      "postdate": "1 มิ.ย. 2567",
       "postedby": "Chatchaya T.",
       "thumbnail_img": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AG_enUS_P8a_90x58_Matcha_1223_GG.width-1000.format-webp.webp",
       "img": [
@@ -41,9 +41,9 @@
       "title": "Kaspersky ออกตัวสแกนไวรัส Virus Removal Tool (KVRT) เวอร์ชันลินุกซ์",
       "content": "<p>บริษัทความปลอดภัย Kaspersky ออกเครื่องมือจัดการไวรัสและมัลแวร์บนลินุกซ์ Kaspersky Virus Removal Tool (KVRT) for Linux ซึ่งเคยมีเวอร์ชันบนวินโดวส์มาก่อนแล้ว</p><p>KVRT ไม่ได้เป็นแอนตี้ไวรัสเต็มรูปแบบที่คอยมอนิเตอร์เครื่องของเราอยู่ตลอดเวลา แต่ใช้สแกนดูได้ว่าเครื่องลินุกซ์ของเรามีไวรัสหรือมัลแวร์แอบแฝงอยู่หรือไม่ โปรแกรมตัวนี้ และหากดิสโทรไม่ซัพพอร์ตโดยตรงก็มีโอกาสสูงที่มันจะรันได้</p>",
       "location": "เชียงใหม่",
-      "crediturl": "https://www.apple.com",
-      "creditname": "apple.com",
-      "blogdate": "1 มิ.ย. 2567",
+      "crediturl": "https://kaspersky.com",
+      "creditname": "kaspersky",
+      "postdate": "1 มิ.ย. 2567",
       "postedby": "Chatchaya T.",
       "thumbnail_img": "https://www.blognone.com/sites/default/files/externals/8e8eebe2e1a0a670cfdcc49bb26d3beb.jpg",
       "img": [
@@ -57,7 +57,7 @@
       "location": "เชียงใหม่",
       "crediturl": "https://www.apple.com",
       "creditname": "apple.com",
-      "blogdate": "1 มิ.ย. 2567",
+      "postdate": "1 มิ.ย. 2567",
       "postedby": "Chatchaya T.",
       "thumbnail_img": "https://storage.googleapis.com/gweb-cloudblog-publish/images/google_cloud_E2p3eed.max-2800x2800.jpg",
       "img": [

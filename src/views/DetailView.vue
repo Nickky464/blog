@@ -17,8 +17,8 @@ import NavMenu from '@/components/NavMenuComponent.vue';
                         alt="Image">
                 </div>
                 <p>Posted by: {{ blog.postedby }}</p>
-                <p>Blog Date: {{ blog.blogdate }}</p>
-                <p>Credit: <a :href="blog.crediturl">{{ blog.creditname }}</a></p>
+                <p>Blog Date: {{ blog.postdate }}</p>
+                <p>Credit: <a :href="blog.crediturl" target="_blank">{{ blog.creditname }}</a></p>
             </div>
             <div v-else>
                 <p>Loading...</p>

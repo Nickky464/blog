@@ -48,7 +48,7 @@
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div> -->
-          <div v-for="blog in blogs.sort((a, b) => b - a).slice(0, 3)" :key="blog.id" class="carousel-item active"
+          <div v-for="(blog, index) in blogs.sort((a, b) => b - a).slice(0, 3)" :key="blog.id" class="carousel-item" :class="{'active': index === 0}"
             data-bs-interval="5000">
             <img v-bind:src="blog.thumbnail_img" class="d-block w-100" alt="...">
             <div class="carousel-caption d-md-block">
@@ -88,7 +88,7 @@
               <!-- <strong class="d-inline-block mb-2 text-primary-emphasis">{{ blog.location }}</strong> -->
               <h3 class="mb-0">{{ blog.title }}</h3>
 
-              <div class="mb-1 text-body-secondary">{{ blog.blogdate }}</div>
+              <div class="mb-1 text-body-secondary">{{ blog.postdate }}</div>
               <p class="card-text mb-auto" v-html="`${blog.content.substring(0, 30)}...`"></p>
               <a v-bind:href="`detail/${blog.id}`" class="icon-link gap-1 icon-link-hover stretched-link">
                 <!-- <a v-bind:href="`detail/${blog.id}`" class="icon-link gap-1 icon-link-hover stretched-link"> -->
