@@ -48,7 +48,7 @@
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div> -->
-          <div v-for="(blog, index) in blogs.sort((a, b) => b - a).slice(0, 3)" :key="blog.id" class="carousel-item" :class="{'active': index === 0}"
+          <div v-for="(blog, index) in blogs.slice(-3)" :key="blog.id" class="carousel-item" :class="{'active': index === 0}"
             data-bs-interval="5000">
             <img v-bind:src="blog.thumbnail_img" class="d-block w-100" alt="...">
             <div class="carousel-caption d-md-block">
