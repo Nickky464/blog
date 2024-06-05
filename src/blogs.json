@@ -75,6 +75,18 @@
       "postedby": "Chatchaya T.",
       "thumbnail_img": "https://www.blognone.com/sites/default/files/styles/thumbnail/public/topics-images/microsoft-logo.png?itok=J9nSJ_SD",
       "img": ["https://cdn.pixabay.com/photo/2016/03/27/17/09/kuala-lumpur-1283140_960_720.jpg"]
+    },
+    {
+      "id": "6",
+      "title": "Raspberry Pi เปิดตัวบอร์ดเสริม AI Kit เพิ่มชิปเร่งความเร็ว AI ช่วยประมวลผลภาพ ราคา 70 ดอลลาร์",
+      "content": "<p>Raspberry Pi เปิดตัวบอร์ดเสริม <a href=\"https://www.raspberrypi.com/products/ai-kit/\">AI Kit</a> ราคา 70 ดอลลาร์ สำหรับใช้เร่งการประมวลผล AI โดยใช้คู่กับ Raspberry Pi 5 ที่เป็นบอร์ดหลัก</p><p>Raspberry Pi AI Kit ประกอบด้วยชิ้นส่วน 2 ชิ้นคือ <a href=\"https://www.raspberrypi.com/products/m2-hat-plus/\">M.2 HAT+</a> สำหรับต่อขยายอุปกรณ์เสริมที่เป็นสล็อต M.2 (เช่น พวก NVMe SSD) กับชิปเร่งความเร็ว AI Hailo-8L ของ<a href=\"https://hailo.ai/\">บริษัท Hailo จากอิสราเอล</a> ที่อยู่ในรูปสล็อต M.2 2242</p><p>ชิป Hailo-8L มีสมรรถนะ 13 TOPS รูปแบบการใช้งานหลักๆ คือประมวลผลภาพ (AI vision) ที่ทำงานแบบเรียลไทม์ ตอบสนองรวดเร็ว (เพราะประมวลผลในเครื่องเอง) ใช้พลังประมวลผลต่ำ ดูแลง่าย ราคาไม่แพง</p><p>การที่ Raspberry Pi AI Kit เป็นอุปกรณ์เสริมอย่างเป็นทางการ ทำให้มันทำงานร่วมกับซอฟต์แวร์ของ Raspberry Pi ได้ทันที เชื่อมต่อกับซอฟต์แวร์กล้องได้เต็มรูปแบบ</p><p>ชิ้นส่วนของ Raspberry Pi AI Kit คือบอร์ด M.2 HAT+ (ชิ้นบน) และ Hailo-8L (ชิ้นล่าง)</p><p>คลิปสาธิตการใช้ Raspberry Pi AI Kit เป็นฮาร์ดแวร์ object recognition แยกแยะวัตถุ</p><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/-huMW13Fp7U\" title=\" even works when traffic on the A14 is moving\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/xL013eHuSeI\" title=\" very casual, not at all suspicious\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>",
+      "location": "เชียงใหม่",
+      "crediturl": "https://www.raspberrypi.com/news/raspberry-pi-ai-kit-available-now-at-70/",
+      "creditname": "Microsoft",
+      "postdate": "2 พ.ค. 2567",
+      "postedby": "Chatchaya T.",
+      "thumbnail_img": "https://www.blognone.com/sites/default/files/styles/thumbnail/public/topics-images/rpi.png?itok=8jsaB6Yz",
+      "img": ["https://www.blognone.com/sites/default/files/externals/8b9e8bf9ace5cb0ae43bc8c6d13eaaf8.jpg","https://www.blognone.com/sites/default/files/externals/fe0f4b52c932365f1b1c21b0bf831a69.jpg"]
     }
   ]
 }
