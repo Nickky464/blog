@@ -1,33 +1,5 @@
 <template>
-
-  <body data-bs-theme="dark">
-
-    <!-- Navbar -->
-    <!-- <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
+  <body>
     <NavMenu />
     <section>
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -40,14 +12,6 @@
               aria-label="Slide 3"></button>
           </div> -->
         <div class="carousel-inner">
-          <!-- <div class="carousel-item active" data-bs-interval="5000">
-            <img src="../assets/logo.svg" width="" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>ยันดีต้อนรับ</h5>
-              <a href="#blog">View More</a>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div> -->
           <div v-for="(blog, index) in blogs.slice(-3)" :key="blog.id" class="carousel-item" :class="{'active': index === 0}"
             data-bs-interval="5000">
             <img v-bind:src="blog.thumbnail_img" class="d-block w-100" alt="...">
@@ -75,12 +39,6 @@
       <h1 class="text-light text-center my-4 "><span class="text-danger">All</span>Blog</h1>
       <div class="container">
 
-        <!-- <ul>
-  
-          <li v-for="letter in blogs" :key="letter.id">
-            <h1>{{ letter.blogname }}</h1>
-          </li>
-        </ul>   -->
         <div v-for="blog in blogs" :key="blog.id">
 
           <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -142,6 +100,7 @@ export default {
     console.log(this.BlogPicture());
   }
 }
+
 </script>
 
 <style></style>

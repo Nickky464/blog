@@ -1,7 +1,8 @@
 // Bootstrap
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap'
+import './js/color-mode'
 
 // Custom CSS
 

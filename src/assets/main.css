@@ -39,32 +39,14 @@
   aspect-ratio: 16/10;
 }
 
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  vertical-align: middle;
-  flex-wrap: wrap;
-  padding: 1rem 9%;
-  height: max-content;
-  background: #242424;
-}
-
-.footer-text p {
-  font-size: 1rem;
-  color: #fff;
-  transition: 0.5s;
-}
-
-.footer-text p a {
+.footer-text {
   font-size: 1rem;
   text-decoration: underline;
   color: #fff;
   transition: 0.5s;
 }
 
-.footer-text:hover p a {
+.footer-text:hover {
   color: #ff0000;
 }
 
