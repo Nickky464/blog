@@ -4,7 +4,7 @@ import NavMenu from '@/components/NavMenuComponent.vue';
 </script>
 <template>
 
-    <body data-bs-theme="dark">
+    <body>
 
         <NavMenu />
         <div class="container blog-detail" data-bs-theme="dark">
