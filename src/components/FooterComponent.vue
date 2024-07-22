@@ -7,7 +7,7 @@
                         <use xlink:href="#bootstrap"></use>
                     </svg>
                 </a> -->
-                <p>Copyright &copy; 2023 by <a href="https://info.nickk.xyz" class="footer-text">Chatchaya</a> | All
+                <p>Copyright &copy; 2023 by <a href="https://info.nickk.xyz" class="footer-text" id="text-auto">Chatchaya</a> | All
                     Right Reserved</p>
             </div>
 

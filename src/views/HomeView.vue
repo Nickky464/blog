@@ -1,5 +1,4 @@
 <template>
-  <body>
     <NavMenu />
     <section>
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -66,7 +65,6 @@
       </div>
 
     </section>
-  </body>
 </template>
 
 <script>
@@ -95,10 +93,10 @@ export default {
   //   },
   // },
 
-  mounted: function () {
-    console.log(this.blogs);
-    console.log(this.BlogPicture());
-  }
+  // mounted: function () {
+  //   console.log(this.blogs);
+  //   console.log(this.BlogPicture());
+  // }
 }
 
 </script>

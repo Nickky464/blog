@@ -7,7 +7,7 @@ import NavMenu from '@/components/NavMenuComponent.vue';
     <body>
 
         <NavMenu />
-        <div class="container blog-detail" data-bs-theme="dark">
+        <div class="container blog-detail">
             <div v-if="blog">
                 <h2>{{ blog.title }}</h2>
                 <p v-html="blog.content"></p>

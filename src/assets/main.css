@@ -42,12 +42,13 @@
 .footer-text {
   font-size: 1rem;
   text-decoration: underline;
-  color: #fff;
+  /* color: #fff; */
+  color: #ff0000 !important;
   transition: 0.5s;
 }
 
 .footer-text:hover {
-  color: #ff0000;
+  color: #ff0000 !important;
 }
 
 .footer-iconTop a {
